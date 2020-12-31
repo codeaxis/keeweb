@@ -3,9 +3,9 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <title>CodeAXIS Password Manager</title>
+    <title>KeeWeb</title>
     <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; font-src data:; script-src 'sha512-6XHO/icuUtfiGOYCiQiYpCK6Yb+kIvw6q4tbLTL408p2d4GnjFopWQnEVd6DO8N41WzvLIHKy7ANCACy+/UdBg==' 'sha512-kiyVMe2J8HjJng/+MdeIt2IwB8WkkA4H7QzebNHJvrS4jwXDge4a56MJRFFuibB++O528mVOXLGc5DuexjdD3g==' 'self' blob: 'unsafe-eval'; style-src 'sha512-Yc+yTKAaiL31Uimj8NkeL2jxASxOJRk44TTBJVqaVfnzKMT3XQraykpb9n3OdL307Gx4gGS6g7VKL9XvPz6B5w==' 'self' blob:; connect-src 'self' ws: https:; child-src 'self' blob:; worker-src 'self' blob:; img-src 'self' data: blob: https://services.keeweb.info/; object-src 'none'; form-action 'none'; ">
-    <meta name="application-name" content="keeweb">
+    <meta name="application-name" content="KeeWeb">
     <meta name="kw-config" content="(no-config)">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -187,7 +187,7 @@
             -webkit-appearance: none
         }
         
-         ::-webkit-file-upload-button {
+        ::-webkit-file-upload-button {
             -webkit-appearance: button;
             font: inherit
         }
@@ -666,7 +666,7 @@
             margin-left: .75em
         }
         
-         :focus {
+        :focus {
             outline: none
         }
         
@@ -738,7 +738,7 @@
         input[type=text]::-webkit-credentials-auto-fill-button,
         textarea::-webkit-credentials-auto-fill-button {
             visibility: hidden;
-            display: none !important;
+            display: none!important;
             pointer-events: none;
             position: absolute;
             right: 0
@@ -1147,7 +1147,7 @@
             max-width: 100%
         }
         
-         ::selection {
+        ::selection {
             background-color: var(--text-selection-bg-color)
         }
         
@@ -1791,8 +1791,8 @@
         }
         
         .pika-button:hover {
-            color: var(--text-color) !important;
-            background: var(--action-color) !important
+            color: var(--text-color)!important;
+            background: var(--action-color)!important
         }
         
         .dropdown {
@@ -1889,7 +1889,7 @@
         }
         
         .hide {
-            display: none !important
+            display: none!important
         }
         
         .hide-by-pos {
@@ -1899,7 +1899,7 @@
         }
         
         .invisible {
-            visibility: hidden !important
+            visibility: hidden!important
         }
         
         .flip3d {
@@ -2155,8 +2155,8 @@
         @media screen and (-moz-windows-theme) {
             @-moz-document url-prefix() {
                 .scroller {
-                    margin-right: 0 !important;
-                    padding-right: 0 !important
+                    margin-right: 0!important;
+                    padding-right: 0!important
                 }
             }
         }
@@ -2195,7 +2195,7 @@
             transition-property: color, border-color, background-color, box-shadow;
             color: transparent;
             background-color: initial;
-            border-color: transparent !important;
+            border-color: transparent!important;
             box-shadow: none
         }
         
@@ -2912,7 +2912,7 @@
         
         @media screen and (-webkit-min-device-pixel-ratio:0) {
             .details__body>.scroller {
-                width: 100% !important
+                width: 100%!important
             }
         }
         
@@ -3075,7 +3075,7 @@
         @media (max-width:620px) {
             .details__field-value>input,
             .details__field-value>textarea {
-                border-color: transparent !important
+                border-color: transparent!important
             }
         }
         
@@ -4281,8 +4281,8 @@
         
         @media (max-width:620px) {
             .list__items>.scroller {
-                width: 100% !important;
-                max-width: 100% !important
+                width: 100%!important;
+                max-width: 100%!important
             }
         }
         
@@ -4317,12 +4317,12 @@
         
         @media (max-width:620px) {
             .list__search-field {
-                font-size: 1.05em !important;
-                box-shadow: none !important;
-                border-radius: .6em !important;
-                border: none !important;
+                font-size: 1.05em!important;
+                box-shadow: none!important;
+                border-radius: .6em!important;
+                border: none!important;
                 padding-left: .4em;
-                background-color: var(--secondary-background-color) !important
+                background-color: var(--secondary-background-color)!important
             }
         }
         
@@ -16990,7 +16990,7 @@
                     }, r.prototype.toRgba = function() {
                         return `rgba(${Math.round(this.r)},${Math.round(this.g)},${Math.round(this.b)},${this.a})`
                     }, r.prototype.toHsla = function() {
-                        return `hsla(${Math.round(100 * this.h)},${Math.round(100 * this.s)}%,${Math.round(100 * this.l)}%,${this.a})`
+                        return `hsla(${Math.round(100*this.h)},${Math.round(100*this.s)}%,${Math.round(100*this.l)}%,${this.a})`
                     }, r.prototype.distanceTo = function(e) {
                         return Math.abs(this.h - e.h)
                     }, r.prototype.mix = function(e, t) {
@@ -17468,7 +17468,7 @@
                                 text: e
                             };
                             return {
-                                html: `<div class="markdown">${s().sanitize(n, { ADD_ATTR: ["target"] })}</div>`
+                                html: `<div class="markdown">${s().sanitize(n,{ADD_ATTR:["target"]})}</div>`
                             }
                         }
                     }
@@ -55009,9 +55009,6 @@
     </script>
 </head>
 
-<body class="th-d"><noscript>
-        <h1>KeeWeb</h1>
-        <p>KeeWeb is a password manager written in JavaScript. Please enable JavaScript to run it.</p>
-    </noscript></body>
+<body class="th-d"><noscript><h1>KeeWeb</h1><p>KeeWeb is a password manager written in JavaScript. Please enable JavaScript to run it.</p></noscript></body>
 
 </html>
