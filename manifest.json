@@ -1,13 +1,12 @@
 {
-    "name": "KeeWeb",
-    "short_name": "KeeWeb",
+    "name": "CodeAXIS Password Manager",
+    "short_name": "cpassman",
     "description": "Free cross-platform password manager compatible with KeePass",
     "start_url": "./",
     "display": "standalone",
     "theme_color": "#6386ec",
     "background_color": "#6386ec",
-    "icons": [
-        {
+    "icons": [{
             "src": "icons/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
