@@ -1,17 +1,16 @@
 {
-	"settings": {
-		"theme": "fb",
-		"autoSave": true,
-		"autoSaveInterval": 1,
-		"canOpenDemo": false,
-		"dropbox": false,
-		"gdrive": false,
-		"onedrive": false,
-		"canExportXml": false
-	},
-	"files": [{
-		"storage": "webdav",
-		"name": "Database",
-		"path": "/webdav/database.kdbx"
-	}]
+    "settings": {
+        "theme": "fb",
+        "autoSave": true,
+        "autoSaveInterval": 1,
+        "canOpenDemo": false,
+        "dropbox": false,
+        "gdrive": false,
+        "gdriveClientId": "839282729452-f0karmuf1mcekmifhfal759cko4dbg7p.apps.googleusercontent.com",
+        "gdriveClientSecret": "Soqmu1jkTeTW5JyTSeWb2ysM",
+        "onedrive": true,
+        "onedriveClientId": "da28b18e-64c0-4507-9b11-653e583a92d3",
+        "onedriveClientSecret": "-xop0sD~.~4FAs4E~1ZgWgfRT~897n58nh",
+        "canExportXml": false
+    }
 }
